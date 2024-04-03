@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+html {
+  background: #181a1b;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.press-container {
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.validate-btn {
+  background: #5EB462;
+  color: #fff;
+}
+
+.card-img {
+  width: 40px;
+  opacity: 0.2;
+}
+
+.card-btn {
+  padding: 0;
+}
+
+.img-choose {
+  position: absolute;
+  left: -20px;
+  width: 15px;
+  height: 15px;
+}
